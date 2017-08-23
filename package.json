@@ -1,0 +1,36 @@
+{
+  "name": "relay-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ."
+  },
+  "author": "suryakant@invitratech.com",
+  "license": "ISC",
+  "dependencies": {
+    "babel-core": "^6.4.5",
+    "babel-polyfill": "^6.3.14",
+    "babel-preset-node5": "^10.5.0",
+    "babel-register": "^6.4.3",
+    "babel-relay-plugin": "^0.6.3",
+    "bluebird": "^3.2.1",
+    "body-parser": "^1.17.2",
+    "compression": "^1.7.0",
+    "cookie-parser": "^1.4.3",
+    "cron": "^1.2.1",
+    "express": "^4.13.4",
+    "express-graphql": "^0.4.4",
+    "faker": "^3.0.1",
+    "graphql": "^0.4.16",
+    "graphql-relay": "^0.3.6",
+    "lodash": "^4.2.1",
+    "morgan": "^1.8.2",
+    "mysql": "^2.14.1",
+    "request": "^2.81.0",
+    "request-promise": "^4.2.1",
+    "sequelize": "^3.19.1",
+    "xml2js": "^0.4.18"
+  }
+}
